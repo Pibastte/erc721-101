@@ -20,7 +20,7 @@ interface IExerciceSolution is IERC721
 	function tokenOfOwnerByIndex(address owner, uint256 index) external view returns (uint256);
 
 	// Selling functions
-	function isAnimalForSale(uint animalNumber) external view returns (bool);
+	function isAnimalForSale(uint animalNumbregistrationPriceer) external view returns (bool);
 
 	function animalPrice(uint animalNumber) external view returns (uint256);
 

@@ -1,6 +1,6 @@
 const HDWalletProvider = require("@truffle/hdwallet-provider");
-var mnemonic = "Enter your mnemonic here"
-var infuraApiKey = "enter your api key here"
+var mnemonic = "asset swing mixed cake air similar medal renew water spin celery hammer"
+var infuraApiKey = "b87d8ef497604b8d97f5b7e6252a967e"
 /**
  * Use this file to configure your truffle project. It's seeded with some
  * common settings for different networks and features like migrations,

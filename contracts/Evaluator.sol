@@ -82,7 +82,7 @@ contract Evaluator
 		bool wings = readWings(msg.sender);
 		uint legs = readLegs(msg.sender);
 		uint sex = readSex(msg.sender);
-
+        
 		// Check animal belongs to Evaluator
 		require(studentExerciceSolution[msg.sender].ownerOf(animalNumber) == address(this), "Created animal doesn't belong to Evaluator");
 
